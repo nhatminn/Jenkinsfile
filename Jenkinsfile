@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DIRECTORY_PATH = "/var/lib/codebase"          // change if needed
+        DIRECTORY_PATH = "/var/lib/codebase"          
         TESTING_ENVIRONMENT = "staging-server"
-        PRODUCTION_ENVIRONMENT = "MinhTran"           // your name as prod env
+        PRODUCTION_ENVIRONMENT = "MinhTran"           
     }
 
     stages {
